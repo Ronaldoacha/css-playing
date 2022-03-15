@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-style: none;
+}
+/*-----nave section------*/
+body{
+    background: rgb(219, 246, 242);
+    opacity: 0.9;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+.left img{
+    background-repeat: no-repeat;
+    /* width: 100%; */
+
+}
+.left h1{
+    color: rgb(18, 216, 216);
+}
+.left:hover{
+    cursor: pointer;
+    color: wheat;
+    opacity: 0.7;
+    transition: all 0.4s;
+}
+.middle div{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-weight: 700;
+    font-size: x-large;
+}
+.middle a{
+    text-decoration: none;
+    color: black;
+}
+.middle a:hover{
+    cursor: pointer;
+    color: rgb(231, 231, 81);
+    transition: all0.3s;
+}
+.middle a:active{
+    text-decoration: underline;
+    color: antiquewhite;
+}
+.get-btn button{
+    background: rgb(27, 213, 246);
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    font-weight: 700;font-size: x-large;
+}
+.get-btn button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.5s;
+    box-shadow: 7px;
+}
+.caption{
+    text-align: center;
+    font-weight: 700;
+    font-size: x-large;
+   
+    margin-top: 45px;
+}
+.caption h1{
+    color: rgb(18, 216, 216);
+}
+.three-box{
+    text-align: center;
+    margin-top: 70px;
+    
+}
+.three-box select, .tip{
+    background: rgb(27, 213, 246);
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    width: 150px;
+    height: 60px;
+}
+.val{
+    height: 50px;
+    width: 300px;
+}
+.empty-section{
+    margin-top: 25px;
+}
+.empty-section img{
+    width: 100%;
+    height: 50vmax;
+    /* object-fit: fill */
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 40px;
+    
+}
+.m,.ma, .man{
+    width: 250px;
+    height: 100px;
+    background: rgb(202, 202, 207);
+    justify-content: space-evenly;
+    border-radius: 6px;
+    display: flex;
+    padding-top: 19px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.m:hover, .ma:hover, .man:hover{
+    cursor: pointer;
+    background: rgb(247, 250, 85);
+    transform: rotate3d(90);
+}
+.profile h3{
+    color: rgb(18, 216, 216);
+}
+/* /*----our online courses section--- */
+
+.our{
+    margin-left: 75px;
+    font-weight: x-large;
+    font-size: 700;
+}
+.our span{
+    background: rgb(202, 202, 207);
+    margin-top: 1000px;
+}
+.here{
+    background: white;
+    opacity: 0.8;
+}
+.all-section{
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin-top: 30px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+.all-section a{
+    text-decoration: none;
+}
+.all-section a:active{
+    text-decoration: underline;
+    color: bisque;
+    cursor: pointer;
+}
+/*---slips picturea--check later-*/
+.pics-slip{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.7em;
+  justify-content: center;
+  justify-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  
+
+  
+}
+.one img{
+    width: 100%;
+    border-top-right-radius: 11px;
+    border-top-left-radius: 11px;
+}
+.one{
+    background: #fff;
+    border-radius: 11px;
+    width: 260px;
+    height: 260px;
+}
+.pics-slip img{
+    height: 100px;
+    width: 100%;
+    
+}
+.number div{
+    display: flex;
+}
+.one h2{
+    text-align: center;
+}
+.star{
+    margin-top: -50px;
+}
+.one span{
+    color: rgb(18, 216, 216);
+}
+.star button{
+    color: orange;
+    margin-left: 10px;
+}
+.star i{
+    color: yellow;
+    /* margin-top: -30px; */
+}
+.number {
+    display: flex;
+    
+}
+.number i{
+    color: rgb(18, 216, 216);
+}
+.ins, .read span{
+    background: rgb(202, 202, 207);
+    margin-top: 10px;  
+    margin-left: 35px;
+}
+.ins h1{
+    background: rgb(202, 202, 207);
+}
+.second-one{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.ux-divide{
+    border-radius: 11px;
+    background-color: #fff;
+    justify-items: center;
+    width: 260px;
+    height: 260px;
+}
+.ux-divide h2, p{
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+}
+
+.second-one img{
+    width: 100%;
+    height: 150px;
+    border-top-right-radius: 11px;
+    border-top-left-radius: 11px;
+}
+.number{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon{
+    margin-top: -30px;
+    padding: 5px;
+    margin-left: 60px;
+    
+    color: rgb(93, 93, 110);
+}
+.read-main{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-right: 75px;
+    border-radius: 12px;
+}
+.blogs{
+    background: #fff;
+}
+.view{
+    display: flex;
+    justify-content: space-around;
+}
+.read-main img{
+    height: 200px;
+    width: 100%;
+    border-top-right-radius: 11px;
+    border-top-left-radius: 11px;
+}
+.read-main h5{
+    color: rgb(18, 216, 216);
+}
+.last{
+    margin-left: 240px;
+    background:rgb(18, 216, 216); ;
+    /* top: 25px; */
+    height: 340px;
+    width: 950px;
+    border-radius: 15px;
+}
+.news h1 {
+    color: #fff;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: xx-large;
+    
+}
+.news p{
+    width: 600px;
+    margin-top: 15px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 30px;
+    font-size: x-large;
+}
+.news input{
+    margin-left: 30px;
+    height: 55px;
+    border-radius: 9px;
+}
+.news input,button{
+    height: 55px;
+    border-radius: 9px;
+}
+.news button{
+    color: #fff;
+    background: orange;
+}
+.sub{
+    display: flex;
+}
+.news img{
+    margin-right: 2px;
+    margin-bottom: -20px;
+}
+/*-----footer----*/
+.wrap{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wrap a{
+    text-decoration: none;
+}
+.stay div{
+    display: flex;
+    justify-content: space-around;
+}
+.wrap a:hover{
+    cursor: pointer;
+    color: rgb(250, 168, 68);
+    transition: all 0.9;
+}
+.site-photo img{
+    
+    transform: translateY(-20px);
+    margin-left: 70px;
+}
